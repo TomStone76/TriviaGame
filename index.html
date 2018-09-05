@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Geography Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="jumbotron" style="background-color: lightgray">
+        <div class="container">
+            <div class="game-intro">
+                <h1 id="game-title">Geography Trivia Game</h1>
+                <p id="description">Press the start button below to put your geographical knowledge to the test!</p>
+                <button id="start-button">Start</button>
+            </div>
+        </div>
+    </div>
+    <div class='timer-container'>
+        <div id="timer"></div>
+    </div>
+    <div id="questions"></div>
+    <div id="game-over"></div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
