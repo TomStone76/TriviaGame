@@ -148,10 +148,10 @@ $(document).ready(function () {
                 var valTen = $("#falseFive").is(":checked");
                 if (valNine) {
                     alert("Sorry, that's not correct!");
-                    correctAnswers++;
+                    incorrectAnswers++;
                 } else if (valTen) {
                     alert("Correct!");
-                    incorrectAnswers++;
+                    correctAnswers++;
                 }
             });
 
