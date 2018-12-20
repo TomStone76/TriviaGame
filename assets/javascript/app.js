@@ -62,7 +62,7 @@ $(document).ready(function () {
                     alert("Sorry, that's incorrect!");
                     incorrectAnswers++;
                 }
-                $(".one").hide();
+                $(".radio-one").hide();
             });
 
             var groupTwo =
@@ -86,7 +86,7 @@ $(document).ready(function () {
                     alert("Correct!");
                     correctAnswers++;
                 }
-                $(".two").hide()
+                $(".radio-two").hide();
             });
 
             var groupThree =
@@ -110,7 +110,7 @@ $(document).ready(function () {
                     alert("Sorry, that's incorrect!");
                     incorrectAnswers++;
                 }
-                $(".three").hide()
+                $(".radio-three").hide();
             });
 
             var groupFour =
@@ -134,7 +134,7 @@ $(document).ready(function () {
                     alert("Sorry, that's incorrect!");
                     incorrectAnswers++;
                 }
-                $(".four").hide()
+                $(".radio-four").hide();
             });
 
             var groupFive =
@@ -158,7 +158,7 @@ $(document).ready(function () {
                     alert("Correct!");
                     correctAnswers++;
                 }
-                $(".five").hide()
+                $(".radio-five").hide();
             });
         }
 
