@@ -24,9 +24,10 @@ $(document).ready(function () {
             var unanswered = 5 - (correctAnswers + incorrectAnswers);
             number--;
             $("#timer").html("<p>" + number + " second(s) left" + "</p>" + "<br/>");
-            if (number === 0) {
+            if (number === 0 || (correctAnswers + incorrectAnswers) === 5) {
                 stop();
                 $("#questions").hide();
+                $("#timer").hide();
                 $("#game-over").show();
                 var end =
                     "<h1>All Done!</h1>" +
