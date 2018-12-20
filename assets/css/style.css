@@ -2,11 +2,11 @@
     font-family: 'Pacifico', cursive;
     font-size: xxx-large;
     padding-bottom: 20px;
-    animation: fadein 5s;
+    animation: fadein 7.5s;
 }
 
 #description {
-    animation: fadein 5s;
+    animation: fadein 7.5s;
 }
 
 @keyframes fadein {
