@@ -3,3 +3,5 @@ This is an app for users looking to test their geography knowledge. After the us
 Technologies used: JavaScript, JQuery, HTML, CSS, and Bootstrap
 
 ![Screenshot](assets/images/screenshot.png)
+
+© 2018 Thomas Joseph Stone
